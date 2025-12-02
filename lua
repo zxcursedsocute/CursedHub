@@ -12,4 +12,7 @@ elseif Place == tonumber(12377995562) or Place == tonumber(12801608913) or Place
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Trollge-Incident-Fights-Reborn2-script/refs/heads/main/lua"))()
 elseif Place == tonumber(13946738101) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Trollge-Multiverse/refs/heads/main/lua"))()
+elseif Place == tonumber(121864768012064) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Fish-It/refs/heads/main/lua"))()
+else loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Forsaken-Script/refs/heads/main/lua"))()
 end
