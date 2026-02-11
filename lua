@@ -20,6 +20,7 @@ local scriptMap = {
     [13946738101]    = URL_MULTIVERSE,
     [121864768012064] = URL_FISH_IT,
 }
+
 local targetUrl = scriptMap[game.PlaceId] or URL_DEFAULT
 
 loadstring(game:HttpGet(targetUrl))()
