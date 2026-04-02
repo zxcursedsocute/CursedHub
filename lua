@@ -2,6 +2,7 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
+local URL_BITE_BY_NIGHT    = "https://raw.githubusercontent.com/zxcursedsocute/Bite-By-Night/refs/heads/main/lua"
 local URL_WORLD_OF_TROLLGE = "https://raw.githubusercontent.com/zxcursedsocute/World-of-Trollge-script/refs/heads/main/lua"
 local URL_FORSAKEN         = "https://raw.githubusercontent.com/zxcursedsocute/Forsaken-Script/refs/heads/main/lua"
 local URL_TROLLGE_REBORN   = "https://raw.githubusercontent.com/zxcursedsocute/Trollge-Incident-Fights-Reborn2-script/refs/heads/main/lua"
@@ -19,6 +20,7 @@ local scriptMap = {
     [13028864053]    = URL_TROLLGE_REBORN,
     [13946738101]    = URL_MULTIVERSE,
     [121864768012064] = URL_FISH_IT,
+    [70845479499574] = URL_BITE_BY_NIGHT
 }
 
 local targetUrl = scriptMap[game.PlaceId] or URL_DEFAULT
